@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:lightpink;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 50px;
+} 
+
+header h1{
+    background-color:indigo;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: lightpink;
+}
+
+header h1::first-letter{
+    color: white;
+}
+
+.menu{
+    background-color: darkmagenta;
+    padding: 15px 50px;
+}
+
+.menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    background-color: indigo;
+    padding: 5px 20px;
+    border-radius: 4px;
+    color: white;
+    margin-left: 50px;
+}
+
+.menu ul li a.active{
+    background-color: lightpink;
+    color: indigo;
+}
+
+.aside1,.aside2{
+    background-color: violet;
+    width: 25%;
+    float: left;
+    height: 300px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.main-section{
+    background-color: white;
+    width: 50%;
+    float: left;
+    height: 300px;
+    padding: 10px;
+    font-weight: bold;
+    border-left: 5px solid darkmagenta;
+    border-right: 5px solid darkmagenta;
+}
+
+footer{
+    background-color: black;
+    color: lightpink;
+}
+
+.menu1, .menu2, .menu3{
+    float: left;
+    width: 33.33%;
+    padding: 20px 40px;
+}
+
+.menu1 ul, .menu2 ul, .menu3 ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+} 
+
+footer:after {
+    content: "";
+    display: table;
+    /* clear: both; */
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
